@@ -1,0 +1,8 @@
+
+language: objective-c
+osx_image: xcode8
+xcode_project: Swifttor.xcodeproj
+xcode_scheme: Swifttor
+xcode_sdk: iphonesimulator11.1
+script:
+  - set -o pipefail && xcodebuild -project Swifttor.xcodeproj -scheme Swifttor -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=10.0,name=iPhone SE' build test | xcpretty
