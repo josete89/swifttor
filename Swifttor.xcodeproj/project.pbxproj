@@ -1,0 +1,1081 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D837B4E41FBF92AA00CF0CD2 /* Swifttor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D837B4DA1FBF92AA00CF0CD2 /* Swifttor.framework */; };
+		D837B4E91FBF92AA00CF0CD2 /* SwifttorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4E81FBF92AA00CF0CD2 /* SwifttorTests.swift */; };
+		D837B4EB1FBF92AA00CF0CD2 /* Swifttor.h in Headers */ = {isa = PBXBuildFile; fileRef = D837B4DD1FBF92AA00CF0CD2 /* Swifttor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D837B4F51FBF92BF00CF0CD2 /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F41FBF92BF00CF0CD2 /* Actor.swift */; };
+		D837B4F71FBF92CB00CF0CD2 /* ActorRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F61FBF92CB00CF0CD2 /* ActorRef.swift */; };
+		D837B4F91FBF92DA00CF0CD2 /* ActorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F81FBF92DA00CF0CD2 /* ActorSystem.swift */; };
+		D837B4FB1FBF952700CF0CD2 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4FA1FBF952700CF0CD2 /* Promise.swift */; };
+		D89BD8AD1FC2BDA1000FA70E /* SwifttorWatchOs.h in Headers */ = {isa = PBXBuildFile; fileRef = D89BD8AB1FC2BDA1000FA70E /* SwifttorWatchOs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D89BD8BF1FC2BDB5000FA70E /* SwifttorTvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89BD8B61FC2BDB5000FA70E /* SwifttorTvOS.framework */; };
+		D89BD8C41FC2BDB5000FA70E /* SwifttorTvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89BD8C31FC2BDB5000FA70E /* SwifttorTvOSTests.swift */; };
+		D89BD8C61FC2BDB5000FA70E /* SwifttorTvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D89BD8B81FC2BDB5000FA70E /* SwifttorTvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D89BD8DB1FC2BDD1000FA70E /* SwifttorMacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89BD8D21FC2BDD1000FA70E /* SwifttorMacOS.framework */; };
+		D89BD8E01FC2BDD1000FA70E /* SwifttorMacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89BD8DF1FC2BDD1000FA70E /* SwifttorMacOSTests.swift */; };
+		D89BD8E21FC2BDD2000FA70E /* SwifttorMacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D89BD8D41FC2BDD1000FA70E /* SwifttorMacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D89BD8E91FC2BDE1000FA70E /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F41FBF92BF00CF0CD2 /* Actor.swift */; };
+		D89BD8EA1FC2BDE2000FA70E /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F41FBF92BF00CF0CD2 /* Actor.swift */; };
+		D89BD8EB1FC2BDE3000FA70E /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F41FBF92BF00CF0CD2 /* Actor.swift */; };
+		D89BD8EC1FC2BDE8000FA70E /* ActorRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F61FBF92CB00CF0CD2 /* ActorRef.swift */; };
+		D89BD8ED1FC2BDE9000FA70E /* ActorRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F61FBF92CB00CF0CD2 /* ActorRef.swift */; };
+		D89BD8EE1FC2BDE9000FA70E /* ActorRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F61FBF92CB00CF0CD2 /* ActorRef.swift */; };
+		D89BD8EF1FC2BDED000FA70E /* ActorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F81FBF92DA00CF0CD2 /* ActorSystem.swift */; };
+		D89BD8F01FC2BDEE000FA70E /* ActorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F81FBF92DA00CF0CD2 /* ActorSystem.swift */; };
+		D89BD8F11FC2BDEE000FA70E /* ActorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F81FBF92DA00CF0CD2 /* ActorSystem.swift */; };
+		D89BD8F21FC2BDF2000FA70E /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4FA1FBF952700CF0CD2 /* Promise.swift */; };
+		D89BD8F31FC2BDF3000FA70E /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4FA1FBF952700CF0CD2 /* Promise.swift */; };
+		D89BD8F41FC2BDF4000FA70E /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4FA1FBF952700CF0CD2 /* Promise.swift */; };
+		D89BD8F51FC2BF8E000FA70E /* SwifttorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4E81FBF92AA00CF0CD2 /* SwifttorTests.swift */; };
+		D89BD8F61FC2BF92000FA70E /* SwifttorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4E81FBF92AA00CF0CD2 /* SwifttorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D837B4E51FBF92AA00CF0CD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D837B4D11FBF92A900CF0CD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D837B4D91FBF92A900CF0CD2;
+			remoteInfo = Swifttor;
+		};
+		D89BD8C01FC2BDB5000FA70E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D837B4D11FBF92A900CF0CD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D89BD8B51FC2BDB5000FA70E;
+			remoteInfo = SwifttorTvOS;
+		};
+		D89BD8DC1FC2BDD1000FA70E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D837B4D11FBF92A900CF0CD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D89BD8D11FC2BDD1000FA70E;
+			remoteInfo = SwifttorMacOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D837B4DA1FBF92AA00CF0CD2 /* Swifttor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swifttor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D837B4DD1FBF92AA00CF0CD2 /* Swifttor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swifttor.h; sourceTree = "<group>"; };
+		D837B4DE1FBF92AA00CF0CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D837B4E31FBF92AA00CF0CD2 /* SwifttorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifttorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D837B4E81FBF92AA00CF0CD2 /* SwifttorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifttorTests.swift; sourceTree = "<group>"; };
+		D837B4EA1FBF92AA00CF0CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D837B4F41FBF92BF00CF0CD2 /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
+		D837B4F61FBF92CB00CF0CD2 /* ActorRef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorRef.swift; sourceTree = "<group>"; };
+		D837B4F81FBF92DA00CF0CD2 /* ActorSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorSystem.swift; sourceTree = "<group>"; };
+		D837B4FA1FBF952700CF0CD2 /* Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		D89BD8A91FC2BDA1000FA70E /* SwifttorWatchOs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwifttorWatchOs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89BD8AB1FC2BDA1000FA70E /* SwifttorWatchOs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwifttorWatchOs.h; sourceTree = "<group>"; };
+		D89BD8AC1FC2BDA1000FA70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89BD8B61FC2BDB5000FA70E /* SwifttorTvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwifttorTvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89BD8B81FC2BDB5000FA70E /* SwifttorTvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwifttorTvOS.h; sourceTree = "<group>"; };
+		D89BD8B91FC2BDB5000FA70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89BD8BE1FC2BDB5000FA70E /* SwifttorTvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifttorTvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89BD8C31FC2BDB5000FA70E /* SwifttorTvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifttorTvOSTests.swift; sourceTree = "<group>"; };
+		D89BD8C51FC2BDB5000FA70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89BD8D21FC2BDD1000FA70E /* SwifttorMacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwifttorMacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89BD8D41FC2BDD1000FA70E /* SwifttorMacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwifttorMacOS.h; sourceTree = "<group>"; };
+		D89BD8D51FC2BDD1000FA70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89BD8DA1FC2BDD1000FA70E /* SwifttorMacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifttorMacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89BD8DF1FC2BDD1000FA70E /* SwifttorMacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifttorMacOSTests.swift; sourceTree = "<group>"; };
+		D89BD8E11FC2BDD2000FA70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D837B4D61FBF92A900CF0CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D837B4E01FBF92AA00CF0CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D837B4E41FBF92AA00CF0CD2 /* Swifttor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8A51FC2BDA1000FA70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8B21FC2BDB5000FA70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8BB1FC2BDB5000FA70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89BD8BF1FC2BDB5000FA70E /* SwifttorTvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8CE1FC2BDD1000FA70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8D71FC2BDD1000FA70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89BD8DB1FC2BDD1000FA70E /* SwifttorMacOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D837B4D01FBF92A900CF0CD2 = {
+			isa = PBXGroup;
+			children = (
+				D837B4DC1FBF92AA00CF0CD2 /* Swifttor */,
+				D837B4E71FBF92AA00CF0CD2 /* SwifttorTests */,
+				D89BD8AA1FC2BDA1000FA70E /* SwifttorWatchOs */,
+				D89BD8B71FC2BDB5000FA70E /* SwifttorTvOS */,
+				D89BD8C21FC2BDB5000FA70E /* SwifttorTvOSTests */,
+				D89BD8D31FC2BDD1000FA70E /* SwifttorMacOS */,
+				D89BD8DE1FC2BDD1000FA70E /* SwifttorMacOSTests */,
+				D837B4DB1FBF92AA00CF0CD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D837B4DB1FBF92AA00CF0CD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D837B4DA1FBF92AA00CF0CD2 /* Swifttor.framework */,
+				D837B4E31FBF92AA00CF0CD2 /* SwifttorTests.xctest */,
+				D89BD8A91FC2BDA1000FA70E /* SwifttorWatchOs.framework */,
+				D89BD8B61FC2BDB5000FA70E /* SwifttorTvOS.framework */,
+				D89BD8BE1FC2BDB5000FA70E /* SwifttorTvOSTests.xctest */,
+				D89BD8D21FC2BDD1000FA70E /* SwifttorMacOS.framework */,
+				D89BD8DA1FC2BDD1000FA70E /* SwifttorMacOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D837B4DC1FBF92AA00CF0CD2 /* Swifttor */ = {
+			isa = PBXGroup;
+			children = (
+				D837B4DD1FBF92AA00CF0CD2 /* Swifttor.h */,
+				D837B4DE1FBF92AA00CF0CD2 /* Info.plist */,
+				D837B4F41FBF92BF00CF0CD2 /* Actor.swift */,
+				D837B4F61FBF92CB00CF0CD2 /* ActorRef.swift */,
+				D837B4F81FBF92DA00CF0CD2 /* ActorSystem.swift */,
+				D837B4FA1FBF952700CF0CD2 /* Promise.swift */,
+			);
+			path = Swifttor;
+			sourceTree = "<group>";
+		};
+		D837B4E71FBF92AA00CF0CD2 /* SwifttorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D837B4E81FBF92AA00CF0CD2 /* SwifttorTests.swift */,
+				D837B4EA1FBF92AA00CF0CD2 /* Info.plist */,
+			);
+			path = SwifttorTests;
+			sourceTree = "<group>";
+		};
+		D89BD8AA1FC2BDA1000FA70E /* SwifttorWatchOs */ = {
+			isa = PBXGroup;
+			children = (
+				D89BD8AB1FC2BDA1000FA70E /* SwifttorWatchOs.h */,
+				D89BD8AC1FC2BDA1000FA70E /* Info.plist */,
+			);
+			path = SwifttorWatchOs;
+			sourceTree = "<group>";
+		};
+		D89BD8B71FC2BDB5000FA70E /* SwifttorTvOS */ = {
+			isa = PBXGroup;
+			children = (
+				D89BD8B81FC2BDB5000FA70E /* SwifttorTvOS.h */,
+				D89BD8B91FC2BDB5000FA70E /* Info.plist */,
+			);
+			path = SwifttorTvOS;
+			sourceTree = "<group>";
+		};
+		D89BD8C21FC2BDB5000FA70E /* SwifttorTvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D89BD8C31FC2BDB5000FA70E /* SwifttorTvOSTests.swift */,
+				D89BD8C51FC2BDB5000FA70E /* Info.plist */,
+			);
+			path = SwifttorTvOSTests;
+			sourceTree = "<group>";
+		};
+		D89BD8D31FC2BDD1000FA70E /* SwifttorMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				D89BD8D41FC2BDD1000FA70E /* SwifttorMacOS.h */,
+				D89BD8D51FC2BDD1000FA70E /* Info.plist */,
+			);
+			path = SwifttorMacOS;
+			sourceTree = "<group>";
+		};
+		D89BD8DE1FC2BDD1000FA70E /* SwifttorMacOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D89BD8DF1FC2BDD1000FA70E /* SwifttorMacOSTests.swift */,
+				D89BD8E11FC2BDD2000FA70E /* Info.plist */,
+			);
+			path = SwifttorMacOSTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D837B4D71FBF92A900CF0CD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D837B4EB1FBF92AA00CF0CD2 /* Swifttor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8A61FC2BDA1000FA70E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89BD8AD1FC2BDA1000FA70E /* SwifttorWatchOs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8B31FC2BDB5000FA70E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89BD8C61FC2BDB5000FA70E /* SwifttorTvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8CF1FC2BDD1000FA70E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89BD8E21FC2BDD2000FA70E /* SwifttorMacOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D837B4D91FBF92A900CF0CD2 /* Swifttor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D837B4EE1FBF92AA00CF0CD2 /* Build configuration list for PBXNativeTarget "Swifttor" */;
+			buildPhases = (
+				D837B4D51FBF92A900CF0CD2 /* Sources */,
+				D837B4D61FBF92A900CF0CD2 /* Frameworks */,
+				D837B4D71FBF92A900CF0CD2 /* Headers */,
+				D837B4D81FBF92A900CF0CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swifttor;
+			productName = Swifttor;
+			productReference = D837B4DA1FBF92AA00CF0CD2 /* Swifttor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D837B4E21FBF92AA00CF0CD2 /* SwifttorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D837B4F11FBF92AA00CF0CD2 /* Build configuration list for PBXNativeTarget "SwifttorTests" */;
+			buildPhases = (
+				D837B4DF1FBF92AA00CF0CD2 /* Sources */,
+				D837B4E01FBF92AA00CF0CD2 /* Frameworks */,
+				D837B4E11FBF92AA00CF0CD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D837B4E61FBF92AA00CF0CD2 /* PBXTargetDependency */,
+			);
+			name = SwifttorTests;
+			productName = SwifttorTests;
+			productReference = D837B4E31FBF92AA00CF0CD2 /* SwifttorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D89BD8A81FC2BDA1000FA70E /* SwifttorWatchOs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89BD8B01FC2BDA1000FA70E /* Build configuration list for PBXNativeTarget "SwifttorWatchOs" */;
+			buildPhases = (
+				D89BD8A41FC2BDA1000FA70E /* Sources */,
+				D89BD8A51FC2BDA1000FA70E /* Frameworks */,
+				D89BD8A61FC2BDA1000FA70E /* Headers */,
+				D89BD8A71FC2BDA1000FA70E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwifttorWatchOs;
+			productName = SwifttorWatchOs;
+			productReference = D89BD8A91FC2BDA1000FA70E /* SwifttorWatchOs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D89BD8B51FC2BDB5000FA70E /* SwifttorTvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89BD8C71FC2BDB5000FA70E /* Build configuration list for PBXNativeTarget "SwifttorTvOS" */;
+			buildPhases = (
+				D89BD8B11FC2BDB5000FA70E /* Sources */,
+				D89BD8B21FC2BDB5000FA70E /* Frameworks */,
+				D89BD8B31FC2BDB5000FA70E /* Headers */,
+				D89BD8B41FC2BDB5000FA70E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwifttorTvOS;
+			productName = SwifttorTvOS;
+			productReference = D89BD8B61FC2BDB5000FA70E /* SwifttorTvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D89BD8BD1FC2BDB5000FA70E /* SwifttorTvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89BD8CA1FC2BDB5000FA70E /* Build configuration list for PBXNativeTarget "SwifttorTvOSTests" */;
+			buildPhases = (
+				D89BD8BA1FC2BDB5000FA70E /* Sources */,
+				D89BD8BB1FC2BDB5000FA70E /* Frameworks */,
+				D89BD8BC1FC2BDB5000FA70E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D89BD8C11FC2BDB5000FA70E /* PBXTargetDependency */,
+			);
+			name = SwifttorTvOSTests;
+			productName = SwifttorTvOSTests;
+			productReference = D89BD8BE1FC2BDB5000FA70E /* SwifttorTvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D89BD8D11FC2BDD1000FA70E /* SwifttorMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89BD8E31FC2BDD2000FA70E /* Build configuration list for PBXNativeTarget "SwifttorMacOS" */;
+			buildPhases = (
+				D89BD8CD1FC2BDD1000FA70E /* Sources */,
+				D89BD8CE1FC2BDD1000FA70E /* Frameworks */,
+				D89BD8CF1FC2BDD1000FA70E /* Headers */,
+				D89BD8D01FC2BDD1000FA70E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwifttorMacOS;
+			productName = SwifttorMacOS;
+			productReference = D89BD8D21FC2BDD1000FA70E /* SwifttorMacOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D89BD8D91FC2BDD1000FA70E /* SwifttorMacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89BD8E61FC2BDD2000FA70E /* Build configuration list for PBXNativeTarget "SwifttorMacOSTests" */;
+			buildPhases = (
+				D89BD8D61FC2BDD1000FA70E /* Sources */,
+				D89BD8D71FC2BDD1000FA70E /* Frameworks */,
+				D89BD8D81FC2BDD1000FA70E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D89BD8DD1FC2BDD1000FA70E /* PBXTargetDependency */,
+			);
+			name = SwifttorMacOSTests;
+			productName = SwifttorMacOSTests;
+			productReference = D89BD8DA1FC2BDD1000FA70E /* SwifttorMacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D837B4D11FBF92A900CF0CD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Alcala, Jose Luis";
+				TargetAttributes = {
+					D837B4D91FBF92A900CF0CD2 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					D837B4E21FBF92AA00CF0CD2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D89BD8A81FC2BDA1000FA70E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D89BD8B51FC2BDB5000FA70E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D89BD8BD1FC2BDB5000FA70E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D89BD8D11FC2BDD1000FA70E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D89BD8D91FC2BDD1000FA70E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D837B4D41FBF92A900CF0CD2 /* Build configuration list for PBXProject "Swifttor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D837B4D01FBF92A900CF0CD2;
+			productRefGroup = D837B4DB1FBF92AA00CF0CD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D837B4D91FBF92A900CF0CD2 /* Swifttor */,
+				D837B4E21FBF92AA00CF0CD2 /* SwifttorTests */,
+				D89BD8A81FC2BDA1000FA70E /* SwifttorWatchOs */,
+				D89BD8B51FC2BDB5000FA70E /* SwifttorTvOS */,
+				D89BD8BD1FC2BDB5000FA70E /* SwifttorTvOSTests */,
+				D89BD8D11FC2BDD1000FA70E /* SwifttorMacOS */,
+				D89BD8D91FC2BDD1000FA70E /* SwifttorMacOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D837B4D81FBF92A900CF0CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D837B4E11FBF92AA00CF0CD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8A71FC2BDA1000FA70E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8B41FC2BDB5000FA70E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8BC1FC2BDB5000FA70E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8D01FC2BDD1000FA70E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8D81FC2BDD1000FA70E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D837B4D51FBF92A900CF0CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D837B4F51FBF92BF00CF0CD2 /* Actor.swift in Sources */,
+				D837B4F91FBF92DA00CF0CD2 /* ActorSystem.swift in Sources */,
+				D837B4F71FBF92CB00CF0CD2 /* ActorRef.swift in Sources */,
+				D837B4FB1FBF952700CF0CD2 /* Promise.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D837B4DF1FBF92AA00CF0CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D837B4E91FBF92AA00CF0CD2 /* SwifttorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8A41FC2BDA1000FA70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89BD8E91FC2BDE1000FA70E /* Actor.swift in Sources */,
+				D89BD8EF1FC2BDED000FA70E /* ActorSystem.swift in Sources */,
+				D89BD8EC1FC2BDE8000FA70E /* ActorRef.swift in Sources */,
+				D89BD8F21FC2BDF2000FA70E /* Promise.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8B11FC2BDB5000FA70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89BD8EA1FC2BDE2000FA70E /* Actor.swift in Sources */,
+				D89BD8F01FC2BDEE000FA70E /* ActorSystem.swift in Sources */,
+				D89BD8ED1FC2BDE9000FA70E /* ActorRef.swift in Sources */,
+				D89BD8F31FC2BDF3000FA70E /* Promise.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8BA1FC2BDB5000FA70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89BD8C41FC2BDB5000FA70E /* SwifttorTvOSTests.swift in Sources */,
+				D89BD8F51FC2BF8E000FA70E /* SwifttorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8CD1FC2BDD1000FA70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89BD8EB1FC2BDE3000FA70E /* Actor.swift in Sources */,
+				D89BD8F11FC2BDEE000FA70E /* ActorSystem.swift in Sources */,
+				D89BD8EE1FC2BDE9000FA70E /* ActorRef.swift in Sources */,
+				D89BD8F41FC2BDF4000FA70E /* Promise.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89BD8D61FC2BDD1000FA70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89BD8E01FC2BDD1000FA70E /* SwifttorMacOSTests.swift in Sources */,
+				D89BD8F61FC2BF92000FA70E /* SwifttorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D837B4E61FBF92AA00CF0CD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D837B4D91FBF92A900CF0CD2 /* Swifttor */;
+			targetProxy = D837B4E51FBF92AA00CF0CD2 /* PBXContainerItemProxy */;
+		};
+		D89BD8C11FC2BDB5000FA70E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D89BD8B51FC2BDB5000FA70E /* SwifttorTvOS */;
+			targetProxy = D89BD8C01FC2BDB5000FA70E /* PBXContainerItemProxy */;
+		};
+		D89BD8DD1FC2BDD1000FA70E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D89BD8D11FC2BDD1000FA70E /* SwifttorMacOS */;
+			targetProxy = D89BD8DC1FC2BDD1000FA70E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D837B4EC1FBF92AA00CF0CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D837B4ED1FBF92AA00CF0CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D837B4EF1FBF92AA00CF0CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Swifttor/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.Swifttor;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D837B4F01FBF92AA00CF0CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Swifttor/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.Swifttor;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D837B4F21FBF92AA00CF0CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwifttorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D837B4F31FBF92AA00CF0CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwifttorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D89BD8AE1FC2BDA1000FA70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwifttorWatchOs/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorWatchOs;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		D89BD8AF1FC2BDA1000FA70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwifttorWatchOs/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorWatchOs;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		D89BD8C81FC2BDB5000FA70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwifttorTvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorTvOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		D89BD8C91FC2BDB5000FA70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwifttorTvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorTvOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		D89BD8CB1FC2BDB5000FA70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwifttorTvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorTvOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		D89BD8CC1FC2BDB5000FA70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwifttorTvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorTvOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		D89BD8E41FC2BDD2000FA70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SwifttorMacOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D89BD8E51FC2BDD2000FA70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SwifttorMacOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D89BD8E71FC2BDD2000FA70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwifttorMacOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorMacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D89BD8E81FC2BDD2000FA70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwifttorMacOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorMacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D837B4D41FBF92A900CF0CD2 /* Build configuration list for PBXProject "Swifttor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D837B4EC1FBF92AA00CF0CD2 /* Debug */,
+				D837B4ED1FBF92AA00CF0CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D837B4EE1FBF92AA00CF0CD2 /* Build configuration list for PBXNativeTarget "Swifttor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D837B4EF1FBF92AA00CF0CD2 /* Debug */,
+				D837B4F01FBF92AA00CF0CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D837B4F11FBF92AA00CF0CD2 /* Build configuration list for PBXNativeTarget "SwifttorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D837B4F21FBF92AA00CF0CD2 /* Debug */,
+				D837B4F31FBF92AA00CF0CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D89BD8B01FC2BDA1000FA70E /* Build configuration list for PBXNativeTarget "SwifttorWatchOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89BD8AE1FC2BDA1000FA70E /* Debug */,
+				D89BD8AF1FC2BDA1000FA70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D89BD8C71FC2BDB5000FA70E /* Build configuration list for PBXNativeTarget "SwifttorTvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89BD8C81FC2BDB5000FA70E /* Debug */,
+				D89BD8C91FC2BDB5000FA70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D89BD8CA1FC2BDB5000FA70E /* Build configuration list for PBXNativeTarget "SwifttorTvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89BD8CB1FC2BDB5000FA70E /* Debug */,
+				D89BD8CC1FC2BDB5000FA70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D89BD8E31FC2BDD2000FA70E /* Build configuration list for PBXNativeTarget "SwifttorMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89BD8E41FC2BDD2000FA70E /* Debug */,
+				D89BD8E51FC2BDD2000FA70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D89BD8E61FC2BDD2000FA70E /* Build configuration list for PBXNativeTarget "SwifttorMacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89BD8E71FC2BDD2000FA70E /* Debug */,
+				D89BD8E81FC2BDD2000FA70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D837B4D11FBF92A900CF0CD2 /* Project object */;
+}
