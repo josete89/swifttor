@@ -1,6 +1,6 @@
 # Swifttor
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+[![Build Status](https://travis-ci.org/josete89/swifttor.svg?branch=master)](https://travis-ci.org/josete89/swifttor)
 
 Swifttor is a library which allows you to use the actors paradimng from the popular akka librar.
 
