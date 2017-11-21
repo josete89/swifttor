@@ -5,3 +5,5 @@ xcode_scheme: Swifttor
 xcode_sdk: iphonesimulator11.1
 script:
   - set -o pipefail && xcodebuild -project Swifttor.xcodeproj -scheme Swifttor -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=11.1,name=iPhone SE' build test | xcpretty
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
