@@ -1,16 +1,17 @@
 
-![](./images/logo.png =250x)
+<img src="./images/logo.png" width="250px"/>
+
 # Swifttor
 
 [![Build Status](https://travis-ci.org/josete89/swifttor.svg?branch=master)](https://travis-ci.org/josete89/swifttor)
 [![codecov](https://codecov.io/gh/josete89/swifttor/branch/master/graph/badge.svg)](https://codecov.io/gh/josete89/swifttor)
 
-Swifttor is a library which allows you to use the actors paradimng from the popular akka librar.
+Swifttor is a library which allows you to use the actors paradimng from the popular akka library.
 
-  - All the messages are being reicived on pararllel
-  - Uses structs as actor so is easy to paralellize
-  - Works in all platforms
-  - Includes the ask and tell actions
+  - All the messages are being reicived on parallel.
+  - Uses structs as actor so is easy to paralellize.
+  - Works in all platforms.
+  - Includes the ask and tell actions.
   - Can compose the ask calls
 
 ### Code examples
