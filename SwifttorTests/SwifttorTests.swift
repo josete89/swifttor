@@ -113,6 +113,17 @@ class SwifttorTests: XCTestCase {
         XCTAssert(String(cString:name, encoding: .utf8) != "com.josete89.swifttor.AnotherActor")
     }
     
+    func testDefaultQueue(){
+        let exp = self.expectation(description: "testDefaultQueue")
+        var another = AnotherActor()
+        another.f = {
+            exp.fulfill()
+        }
+        let actorRef = ActorSystem.actorOfInstance(another)
+        actorRef ! "Test"
+        waitForExpectations(timeout: 1.0, handler: nil)
+    }
+    
     func testFuture(){
         let exp = self.expectation(description: "testFuture")
         Future { (completion) in

@@ -13,7 +13,7 @@
 		D837B4F51FBF92BF00CF0CD2 /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F41FBF92BF00CF0CD2 /* Actor.swift */; };
 		D837B4F71FBF92CB00CF0CD2 /* ActorRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F61FBF92CB00CF0CD2 /* ActorRef.swift */; };
 		D837B4F91FBF92DA00CF0CD2 /* ActorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F81FBF92DA00CF0CD2 /* ActorSystem.swift */; };
-		D837B4FB1FBF952700CF0CD2 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4FA1FBF952700CF0CD2 /* Promise.swift */; };
+		D837B4FB1FBF952700CF0CD2 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4FA1FBF952700CF0CD2 /* Future.swift */; };
 		D89BD8AD1FC2BDA1000FA70E /* SwifttorWatchOs.h in Headers */ = {isa = PBXBuildFile; fileRef = D89BD8AB1FC2BDA1000FA70E /* SwifttorWatchOs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D89BD8BF1FC2BDB5000FA70E /* SwifttorTvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89BD8B61FC2BDB5000FA70E /* SwifttorTvOS.framework */; };
 		D89BD8C41FC2BDB5000FA70E /* SwifttorTvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89BD8C31FC2BDB5000FA70E /* SwifttorTvOSTests.swift */; };
@@ -30,9 +30,9 @@
 		D89BD8EF1FC2BDED000FA70E /* ActorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F81FBF92DA00CF0CD2 /* ActorSystem.swift */; };
 		D89BD8F01FC2BDEE000FA70E /* ActorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F81FBF92DA00CF0CD2 /* ActorSystem.swift */; };
 		D89BD8F11FC2BDEE000FA70E /* ActorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4F81FBF92DA00CF0CD2 /* ActorSystem.swift */; };
-		D89BD8F21FC2BDF2000FA70E /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4FA1FBF952700CF0CD2 /* Promise.swift */; };
-		D89BD8F31FC2BDF3000FA70E /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4FA1FBF952700CF0CD2 /* Promise.swift */; };
-		D89BD8F41FC2BDF4000FA70E /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4FA1FBF952700CF0CD2 /* Promise.swift */; };
+		D89BD8F21FC2BDF2000FA70E /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4FA1FBF952700CF0CD2 /* Future.swift */; };
+		D89BD8F31FC2BDF3000FA70E /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4FA1FBF952700CF0CD2 /* Future.swift */; };
+		D89BD8F41FC2BDF4000FA70E /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4FA1FBF952700CF0CD2 /* Future.swift */; };
 		D89BD8F51FC2BF8E000FA70E /* SwifttorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4E81FBF92AA00CF0CD2 /* SwifttorTests.swift */; };
 		D89BD8F61FC2BF92000FA70E /* SwifttorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837B4E81FBF92AA00CF0CD2 /* SwifttorTests.swift */; };
 /* End PBXBuildFile section */
@@ -71,7 +71,7 @@
 		D837B4F41FBF92BF00CF0CD2 /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
 		D837B4F61FBF92CB00CF0CD2 /* ActorRef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorRef.swift; sourceTree = "<group>"; };
 		D837B4F81FBF92DA00CF0CD2 /* ActorSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorSystem.swift; sourceTree = "<group>"; };
-		D837B4FA1FBF952700CF0CD2 /* Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		D837B4FA1FBF952700CF0CD2 /* Future.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
 		D89BD8A91FC2BDA1000FA70E /* SwifttorWatchOs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwifttorWatchOs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89BD8AB1FC2BDA1000FA70E /* SwifttorWatchOs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwifttorWatchOs.h; sourceTree = "<group>"; };
 		D89BD8AC1FC2BDA1000FA70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -181,7 +181,7 @@
 				D837B4F41FBF92BF00CF0CD2 /* Actor.swift */,
 				D837B4F61FBF92CB00CF0CD2 /* ActorRef.swift */,
 				D837B4F81FBF92DA00CF0CD2 /* ActorSystem.swift */,
-				D837B4FA1FBF952700CF0CD2 /* Promise.swift */,
+				D837B4FA1FBF952700CF0CD2 /* Future.swift */,
 			);
 			path = Swifttor;
 			sourceTree = "<group>";
@@ -286,6 +286,7 @@
 				D837B4D61FBF92A900CF0CD2 /* Frameworks */,
 				D837B4D71FBF92A900CF0CD2 /* Headers */,
 				D837B4D81FBF92A900CF0CD2 /* Resources */,
+				D8EC83421FC4C4860061DFC7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -520,6 +521,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D8EC83421FC4C4860061DFC7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D837B4D51FBF92A900CF0CD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -528,7 +545,7 @@
 				D837B4F51FBF92BF00CF0CD2 /* Actor.swift in Sources */,
 				D837B4F91FBF92DA00CF0CD2 /* ActorSystem.swift in Sources */,
 				D837B4F71FBF92CB00CF0CD2 /* ActorRef.swift in Sources */,
-				D837B4FB1FBF952700CF0CD2 /* Promise.swift in Sources */,
+				D837B4FB1FBF952700CF0CD2 /* Future.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,7 +564,7 @@
 				D89BD8E91FC2BDE1000FA70E /* Actor.swift in Sources */,
 				D89BD8EF1FC2BDED000FA70E /* ActorSystem.swift in Sources */,
 				D89BD8EC1FC2BDE8000FA70E /* ActorRef.swift in Sources */,
-				D89BD8F21FC2BDF2000FA70E /* Promise.swift in Sources */,
+				D89BD8F21FC2BDF2000FA70E /* Future.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,7 +575,7 @@
 				D89BD8EA1FC2BDE2000FA70E /* Actor.swift in Sources */,
 				D89BD8F01FC2BDEE000FA70E /* ActorSystem.swift in Sources */,
 				D89BD8ED1FC2BDE9000FA70E /* ActorRef.swift in Sources */,
-				D89BD8F31FC2BDF3000FA70E /* Promise.swift in Sources */,
+				D89BD8F31FC2BDF3000FA70E /* Future.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,7 +595,7 @@
 				D89BD8EB1FC2BDE3000FA70E /* Actor.swift in Sources */,
 				D89BD8F11FC2BDEE000FA70E /* ActorSystem.swift in Sources */,
 				D89BD8EE1FC2BDE9000FA70E /* ActorRef.swift in Sources */,
-				D89BD8F41FC2BDF4000FA70E /* Promise.swift in Sources */,
+				D89BD8F41FC2BDF4000FA70E /* Future.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

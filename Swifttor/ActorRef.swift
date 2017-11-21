@@ -8,16 +8,12 @@
 
 import Foundation
 
-
 public struct ActorRef<T:Actor>:Equatable {
     let actor:T
-    static public func ==(lhs: ActorRef<T>, rhs: ActorRef<T>) -> Bool {
+    static public func == (lhs: ActorRef<T>, rhs: ActorRef<T>) -> Bool {
         return (lhs.actor == rhs.actor)
     }
 }
-
-
-
 
 extension ActorRef where T: ActorTell {
     public func tell(_ message:T.MessageType) {

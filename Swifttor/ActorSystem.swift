@@ -9,35 +9,34 @@
 import Foundation
 
 struct ActorSystem {
-    
+
     fileprivate static var actors:[String:Any] = [:]
-    
+
     static func actorOfInstance<T:Actor>(_ actor:T) -> ActorRef<T> {
         return ActorRef(actor: actor)
     }
-    
-    static func actorOf<T:Actor>(actorType:T.Type) -> ActorRef<T>  {
+
+    static func actorOf<T:Actor>(actorType:T.Type) -> ActorRef<T> {
         let key = "\(actorType)"
         let act = actorType.init()
         let actorRef:ActorRef<T>
-        
+
         if let instance = actors[key] as? ActorRef<T> {
             actorRef = instance
-        }else {
+        } else {
             let instance = ActorRef(actor: act)
             actors[key] = instance
             actorRef = instance
         }
         return actorRef
     }
-    
-}
 
+}
 
 infix operator  !:AdditionPrecedence
 infix operator  !!:AdditionPrecedence
 
-public func !<T:ActorTell>(left:ActorRef<T>, right:T.MessageType) -> Void {
+public func !<T:ActorTell>(left:ActorRef<T>, right:T.MessageType) {
     left.tell(right)
 }
 
