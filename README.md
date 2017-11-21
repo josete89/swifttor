@@ -1,6 +1,7 @@
 # Swifttor
 
 [![Build Status](https://travis-ci.org/josete89/swifttor.svg?branch=master)](https://travis-ci.org/josete89/swifttor)
+[![codecov](https://codecov.io/gh/josete89/swifttor/branch/master/graph/badge.svg)](https://codecov.io/gh/josete89/swifttor)
 
 Swifttor is a library which allows you to use the actors paradimng from the popular akka librar.
 
