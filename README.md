@@ -1,5 +1,5 @@
 
-<img src="./images/logo.png" width="250px">
+![](./images/logo.png =250x)
 # Swifttor
 
 [![Build Status](https://travis-ci.org/josete89/swifttor.svg?branch=master)](https://travis-ci.org/josete89/swifttor)
