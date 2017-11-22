@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Swifttor:
-    :commit: c7f03bef959a5cc35d7c479e205ad41a1e7ffe23
+    :commit: 999302b5a6ebcd776cfc417c7311ba01d5c48053
     :git: https://github.com/josete89/swifttor.git
 
 SPEC CHECKSUMS:
