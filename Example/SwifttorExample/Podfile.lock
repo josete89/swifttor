@@ -1,0 +1,22 @@
+PODS:
+  - Swifttor (1.0)
+
+DEPENDENCIES:
+  - Swifttor (from `https://github.com/josete89/swifttor.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  Swifttor:
+    :branch: master
+    :git: https://github.com/josete89/swifttor.git
+
+CHECKOUT OPTIONS:
+  Swifttor:
+    :commit: c7f03bef959a5cc35d7c479e205ad41a1e7ffe23
+    :git: https://github.com/josete89/swifttor.git
+
+SPEC CHECKSUMS:
+  Swifttor: 6ba2d1159e6cc297f1de58e62d34588eb1ee402a
+
+PODFILE CHECKSUM: 230102bd3118cf89e8358f1b6239a20499924f0b
+
+COCOAPODS: 1.3.1

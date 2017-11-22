@@ -1,0 +1,6 @@
+framework module Pods_SwifttorExample {
+  umbrella header "Pods-SwifttorExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

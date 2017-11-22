@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct ActorSystem {
+struct ActorSystem {
 
     fileprivate static var actors:[String:Any] = [:]
 

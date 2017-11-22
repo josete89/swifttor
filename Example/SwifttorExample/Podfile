@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SwifttorExample' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SwifttorExample
+
+  pod 'Swifttor', :git => 'https://github.com/josete89/swifttor.git', :branch => 'master' 
+
+  target 'SwifttorExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SwifttorExampleUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -16,7 +16,7 @@ public protocol Actor:Equatable {
 }
 
 public protocol ActorTell: Actor {
-    
+
     func reiciveTell(message:MessageType)
 
 }

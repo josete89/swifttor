@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A9D3A4D0AC69805744ADDB /* Pods_SwifttorExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C00D26609ED77AEBACAA827 /* Pods_SwifttorExample.framework */; };
+		B5708FEC7AA4B8152CD1097F /* Pods_SwifttorExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E9846B6F961486DA9D1B04 /* Pods_SwifttorExampleUITests.framework */; };
+		D89045041FC5F59800DC6AA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89045031FC5F59800DC6AA3 /* AppDelegate.swift */; };
+		D89045061FC5F59800DC6AA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89045051FC5F59800DC6AA3 /* ViewController.swift */; };
+		D89045091FC5F59800DC6AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89045071FC5F59800DC6AA3 /* Main.storyboard */; };
+		D890450B1FC5F59800DC6AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D890450A1FC5F59800DC6AA3 /* Assets.xcassets */; };
+		D890450E1FC5F59800DC6AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D890450C1FC5F59800DC6AA3 /* LaunchScreen.storyboard */; };
+		D89045191FC5F59900DC6AA3 /* SwifttorExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89045181FC5F59900DC6AA3 /* SwifttorExampleTests.swift */; };
+		D89045241FC5F59900DC6AA3 /* SwifttorExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89045231FC5F59900DC6AA3 /* SwifttorExampleUITests.swift */; };
+		D89045321FC5F70D00DC6AA3 /* MainActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89045311FC5F70D00DC6AA3 /* MainActor.swift */; };
+		DAA8354DF87B48D66C463535 /* Pods_SwifttorExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B73DF7353300151FA650774 /* Pods_SwifttorExampleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D89045151FC5F59900DC6AA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D89044F81FC5F59800DC6AA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D89044FF1FC5F59800DC6AA3;
+			remoteInfo = SwifttorExample;
+		};
+		D89045201FC5F59900DC6AA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D89044F81FC5F59800DC6AA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D89044FF1FC5F59800DC6AA3;
+			remoteInfo = SwifttorExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B73DF7353300151FA650774 /* Pods_SwifttorExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwifttorExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE5048F63B718E977409315 /* Pods-SwifttorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifttorExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwifttorExample/Pods-SwifttorExample.release.xcconfig"; sourceTree = "<group>"; };
+		49E9846B6F961486DA9D1B04 /* Pods_SwifttorExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwifttorExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B9F7823CC4328DA4FAE2B5 /* Pods-SwifttorExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifttorExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwifttorExampleUITests/Pods-SwifttorExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C00D26609ED77AEBACAA827 /* Pods_SwifttorExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwifttorExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		621BDE24AAD48B52E860F1CE /* Pods-SwifttorExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifttorExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwifttorExampleTests/Pods-SwifttorExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7810D5EA23F8FF9029DA795 /* Pods-SwifttorExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifttorExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwifttorExampleTests/Pods-SwifttorExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC26DC9D0C325DCF1D10D4D4 /* Pods-SwifttorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifttorExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwifttorExample/Pods-SwifttorExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D89045001FC5F59800DC6AA3 /* SwifttorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifttorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89045031FC5F59800DC6AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D89045051FC5F59800DC6AA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D89045081FC5F59800DC6AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D890450A1FC5F59800DC6AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D890450D1FC5F59800DC6AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D890450F1FC5F59800DC6AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89045141FC5F59900DC6AA3 /* SwifttorExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifttorExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89045181FC5F59900DC6AA3 /* SwifttorExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifttorExampleTests.swift; sourceTree = "<group>"; };
+		D890451A1FC5F59900DC6AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D890451F1FC5F59900DC6AA3 /* SwifttorExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifttorExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89045231FC5F59900DC6AA3 /* SwifttorExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifttorExampleUITests.swift; sourceTree = "<group>"; };
+		D89045251FC5F59900DC6AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89045311FC5F70D00DC6AA3 /* MainActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActor.swift; sourceTree = "<group>"; };
+		F98F9FEEBB507B4B82801AB0 /* Pods-SwifttorExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifttorExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwifttorExampleUITests/Pods-SwifttorExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D89044FD1FC5F59800DC6AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A9D3A4D0AC69805744ADDB /* Pods_SwifttorExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89045111FC5F59900DC6AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA8354DF87B48D66C463535 /* Pods_SwifttorExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D890451C1FC5F59900DC6AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5708FEC7AA4B8152CD1097F /* Pods_SwifttorExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59F699D038B10315C1A2343E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC26DC9D0C325DCF1D10D4D4 /* Pods-SwifttorExample.debug.xcconfig */,
+				1BE5048F63B718E977409315 /* Pods-SwifttorExample.release.xcconfig */,
+				B7810D5EA23F8FF9029DA795 /* Pods-SwifttorExampleTests.debug.xcconfig */,
+				621BDE24AAD48B52E860F1CE /* Pods-SwifttorExampleTests.release.xcconfig */,
+				57B9F7823CC4328DA4FAE2B5 /* Pods-SwifttorExampleUITests.debug.xcconfig */,
+				F98F9FEEBB507B4B82801AB0 /* Pods-SwifttorExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8D348286200F75C24E46F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C00D26609ED77AEBACAA827 /* Pods_SwifttorExample.framework */,
+				1B73DF7353300151FA650774 /* Pods_SwifttorExampleTests.framework */,
+				49E9846B6F961486DA9D1B04 /* Pods_SwifttorExampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D89044F71FC5F59800DC6AA3 = {
+			isa = PBXGroup;
+			children = (
+				D89045021FC5F59800DC6AA3 /* SwifttorExample */,
+				D89045171FC5F59900DC6AA3 /* SwifttorExampleTests */,
+				D89045221FC5F59900DC6AA3 /* SwifttorExampleUITests */,
+				D89045011FC5F59800DC6AA3 /* Products */,
+				59F699D038B10315C1A2343E /* Pods */,
+				B8D348286200F75C24E46F2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D89045011FC5F59800DC6AA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D89045001FC5F59800DC6AA3 /* SwifttorExample.app */,
+				D89045141FC5F59900DC6AA3 /* SwifttorExampleTests.xctest */,
+				D890451F1FC5F59900DC6AA3 /* SwifttorExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89045021FC5F59800DC6AA3 /* SwifttorExample */ = {
+			isa = PBXGroup;
+			children = (
+				D89045031FC5F59800DC6AA3 /* AppDelegate.swift */,
+				D89045051FC5F59800DC6AA3 /* ViewController.swift */,
+				D89045071FC5F59800DC6AA3 /* Main.storyboard */,
+				D890450A1FC5F59800DC6AA3 /* Assets.xcassets */,
+				D890450C1FC5F59800DC6AA3 /* LaunchScreen.storyboard */,
+				D890450F1FC5F59800DC6AA3 /* Info.plist */,
+				D89045311FC5F70D00DC6AA3 /* MainActor.swift */,
+			);
+			path = SwifttorExample;
+			sourceTree = "<group>";
+		};
+		D89045171FC5F59900DC6AA3 /* SwifttorExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D89045181FC5F59900DC6AA3 /* SwifttorExampleTests.swift */,
+				D890451A1FC5F59900DC6AA3 /* Info.plist */,
+			);
+			path = SwifttorExampleTests;
+			sourceTree = "<group>";
+		};
+		D89045221FC5F59900DC6AA3 /* SwifttorExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D89045231FC5F59900DC6AA3 /* SwifttorExampleUITests.swift */,
+				D89045251FC5F59900DC6AA3 /* Info.plist */,
+			);
+			path = SwifttorExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D89044FF1FC5F59800DC6AA3 /* SwifttorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89045281FC5F59900DC6AA3 /* Build configuration list for PBXNativeTarget "SwifttorExample" */;
+			buildPhases = (
+				C17CF8BC2961D62D74E74E38 /* [CP] Check Pods Manifest.lock */,
+				D89044FC1FC5F59800DC6AA3 /* Sources */,
+				D89044FD1FC5F59800DC6AA3 /* Frameworks */,
+				D89044FE1FC5F59800DC6AA3 /* Resources */,
+				95E5E7695BD9ECF2EAC9F0CF /* [CP] Embed Pods Frameworks */,
+				0D0D2442F0C24C554D1701ED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwifttorExample;
+			productName = SwifttorExample;
+			productReference = D89045001FC5F59800DC6AA3 /* SwifttorExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D89045131FC5F59900DC6AA3 /* SwifttorExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D890452B1FC5F59900DC6AA3 /* Build configuration list for PBXNativeTarget "SwifttorExampleTests" */;
+			buildPhases = (
+				7B1DCB22AEDE86C3ADB3CB3D /* [CP] Check Pods Manifest.lock */,
+				D89045101FC5F59900DC6AA3 /* Sources */,
+				D89045111FC5F59900DC6AA3 /* Frameworks */,
+				D89045121FC5F59900DC6AA3 /* Resources */,
+				8EB7BEB18454839AB34AD35C /* [CP] Embed Pods Frameworks */,
+				AF750BBB26DD631057F6CD07 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D89045161FC5F59900DC6AA3 /* PBXTargetDependency */,
+			);
+			name = SwifttorExampleTests;
+			productName = SwifttorExampleTests;
+			productReference = D89045141FC5F59900DC6AA3 /* SwifttorExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D890451E1FC5F59900DC6AA3 /* SwifttorExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D890452E1FC5F59900DC6AA3 /* Build configuration list for PBXNativeTarget "SwifttorExampleUITests" */;
+			buildPhases = (
+				B717630EF55A892F52D9AC92 /* [CP] Check Pods Manifest.lock */,
+				D890451B1FC5F59900DC6AA3 /* Sources */,
+				D890451C1FC5F59900DC6AA3 /* Frameworks */,
+				D890451D1FC5F59900DC6AA3 /* Resources */,
+				851C2C1E52253992BC83413B /* [CP] Embed Pods Frameworks */,
+				49D8117921C5B0127C7EAA49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D89045211FC5F59900DC6AA3 /* PBXTargetDependency */,
+			);
+			name = SwifttorExampleUITests;
+			productName = SwifttorExampleUITests;
+			productReference = D890451F1FC5F59900DC6AA3 /* SwifttorExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D89044F81FC5F59800DC6AA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Alcala, Jose Luis";
+				TargetAttributes = {
+					D89044FF1FC5F59800DC6AA3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D89045131FC5F59900DC6AA3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D89044FF1FC5F59800DC6AA3;
+					};
+					D890451E1FC5F59900DC6AA3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D89044FF1FC5F59800DC6AA3;
+					};
+				};
+			};
+			buildConfigurationList = D89044FB1FC5F59800DC6AA3 /* Build configuration list for PBXProject "SwifttorExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D89044F71FC5F59800DC6AA3;
+			productRefGroup = D89045011FC5F59800DC6AA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D89044FF1FC5F59800DC6AA3 /* SwifttorExample */,
+				D89045131FC5F59900DC6AA3 /* SwifttorExampleTests */,
+				D890451E1FC5F59900DC6AA3 /* SwifttorExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D89044FE1FC5F59800DC6AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D890450E1FC5F59800DC6AA3 /* LaunchScreen.storyboard in Resources */,
+				D890450B1FC5F59800DC6AA3 /* Assets.xcassets in Resources */,
+				D89045091FC5F59800DC6AA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89045121FC5F59900DC6AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D890451D1FC5F59900DC6AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D0D2442F0C24C554D1701ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwifttorExample/Pods-SwifttorExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49D8117921C5B0127C7EAA49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwifttorExampleUITests/Pods-SwifttorExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B1DCB22AEDE86C3ADB3CB3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwifttorExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		851C2C1E52253992BC83413B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwifttorExampleUITests/Pods-SwifttorExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EB7BEB18454839AB34AD35C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwifttorExampleTests/Pods-SwifttorExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95E5E7695BD9ECF2EAC9F0CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwifttorExample/Pods-SwifttorExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Swifttor/Swifttor.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swifttor.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwifttorExample/Pods-SwifttorExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF750BBB26DD631057F6CD07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwifttorExampleTests/Pods-SwifttorExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B717630EF55A892F52D9AC92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwifttorExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C17CF8BC2961D62D74E74E38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwifttorExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D89044FC1FC5F59800DC6AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89045321FC5F70D00DC6AA3 /* MainActor.swift in Sources */,
+				D89045061FC5F59800DC6AA3 /* ViewController.swift in Sources */,
+				D89045041FC5F59800DC6AA3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89045101FC5F59900DC6AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89045191FC5F59900DC6AA3 /* SwifttorExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D890451B1FC5F59900DC6AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89045241FC5F59900DC6AA3 /* SwifttorExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D89045161FC5F59900DC6AA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D89044FF1FC5F59800DC6AA3 /* SwifttorExample */;
+			targetProxy = D89045151FC5F59900DC6AA3 /* PBXContainerItemProxy */;
+		};
+		D89045211FC5F59900DC6AA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D89044FF1FC5F59800DC6AA3 /* SwifttorExample */;
+			targetProxy = D89045201FC5F59900DC6AA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D89045071FC5F59800DC6AA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D89045081FC5F59800DC6AA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D890450C1FC5F59800DC6AA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D890450D1FC5F59800DC6AA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D89045261FC5F59900DC6AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D89045271FC5F59900DC6AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D89045291FC5F59900DC6AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC26DC9D0C325DCF1D10D4D4 /* Pods-SwifttorExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwifttorExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D890452A1FC5F59900DC6AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE5048F63B718E977409315 /* Pods-SwifttorExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwifttorExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D890452C1FC5F59900DC6AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7810D5EA23F8FF9029DA795 /* Pods-SwifttorExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwifttorExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwifttorExample.app/SwifttorExample";
+			};
+			name = Debug;
+		};
+		D890452D1FC5F59900DC6AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621BDE24AAD48B52E860F1CE /* Pods-SwifttorExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwifttorExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwifttorExample.app/SwifttorExample";
+			};
+			name = Release;
+		};
+		D890452F1FC5F59900DC6AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B9F7823CC4328DA4FAE2B5 /* Pods-SwifttorExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwifttorExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwifttorExample;
+			};
+			name = Debug;
+		};
+		D89045301FC5F59900DC6AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98F9FEEBB507B4B82801AB0 /* Pods-SwifttorExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwifttorExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josete89.SwifttorExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwifttorExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D89044FB1FC5F59800DC6AA3 /* Build configuration list for PBXProject "SwifttorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89045261FC5F59900DC6AA3 /* Debug */,
+				D89045271FC5F59900DC6AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D89045281FC5F59900DC6AA3 /* Build configuration list for PBXNativeTarget "SwifttorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89045291FC5F59900DC6AA3 /* Debug */,
+				D890452A1FC5F59900DC6AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D890452B1FC5F59900DC6AA3 /* Build configuration list for PBXNativeTarget "SwifttorExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D890452C1FC5F59900DC6AA3 /* Debug */,
+				D890452D1FC5F59900DC6AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D890452E1FC5F59900DC6AA3 /* Build configuration list for PBXNativeTarget "SwifttorExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D890452F1FC5F59900DC6AA3 /* Debug */,
+				D89045301FC5F59900DC6AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D89044F81FC5F59800DC6AA3 /* Project object */;
+}
