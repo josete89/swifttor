@@ -12,18 +12,20 @@ public struct ActorSystem {
 
     fileprivate static var actors:[String:Any] = [:]
 
-    static func actorOfInstance<T:Actor>(_ actor:T) -> ActorRef<T> {
+    static public func actorOfInstance<T:Actor>(_ actor:T) -> ActorRef<T> {
         return ActorRef(actor: actor)
     }
 
-    static func actorOf<T:Actor>(actorType:T.Type) -> ActorRef<T> {
+    static public func actorOf<T:Actor>(actorType:T.Type) -> ActorRef<T> {
         let key = "\(actorType)"
         let act = actorType.init()
         let actorRef:ActorRef<T>
-
+print(key)
         if let instance = actors[key] as? ActorRef<T> {
+            print("cached actor")
             actorRef = instance
         } else {
+            print("new  actor")
             let instance = ActorRef(actor: act)
             actors[key] = instance
             actorRef = instance

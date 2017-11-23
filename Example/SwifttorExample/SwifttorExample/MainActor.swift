@@ -8,32 +8,28 @@
 
 import Swifttor
 
+enum MainActorMessages {
+    case displayInfo(callback:(Model) -> (),data:Model)
+    case refreshStuffWithData(callback:(String) -> (),data:String)
+    case refreshStuff(callbac:() -> ())
+}
 
 
-struct MainActor<T>: ActorTell {
-    
+
+struct MainActor: ActorTell {
+
     typealias MessageType = MainActorMessages
-    var name:String {
-        return "etes"
-    }
     
-    var queue: DispatchQueue {
-        return DispatchQueue.main
-    }
-    
-    enum MainActorMessages {
-        case refreshStuffWithData(callback:(T) -> (),data:T)
-        case refreshStuff(callbac:() -> ())
-    }
-    
-    
-    func reiciveTell(message: MainActor.MainActorMessages) {
+    func reiciveTell(message: MainActorMessages) {
         switch message {
+        case .refreshStuffWithData(let callback,let data):
+            callback(data)
         case .refreshStuff(let callback):
             callback()
-        case .refreshStuffWithData(let callback, let data):
+        case .displayInfo(let callback,let data):
             callback(data)
         }
+        
     }
 
 }

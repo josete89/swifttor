@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		03A9D3A4D0AC69805744ADDB /* Pods_SwifttorExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C00D26609ED77AEBACAA827 /* Pods_SwifttorExample.framework */; };
 		B5708FEC7AA4B8152CD1097F /* Pods_SwifttorExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E9846B6F961486DA9D1B04 /* Pods_SwifttorExampleUITests.framework */; };
+		D8150D151FC6CA5800E84EFF /* ParserActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8150D141FC6CA5800E84EFF /* ParserActor.swift */; };
 		D89045041FC5F59800DC6AA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89045031FC5F59800DC6AA3 /* AppDelegate.swift */; };
 		D89045061FC5F59800DC6AA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89045051FC5F59800DC6AA3 /* ViewController.swift */; };
 		D89045091FC5F59800DC6AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89045071FC5F59800DC6AA3 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 		D89045191FC5F59900DC6AA3 /* SwifttorExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89045181FC5F59900DC6AA3 /* SwifttorExampleTests.swift */; };
 		D89045241FC5F59900DC6AA3 /* SwifttorExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89045231FC5F59900DC6AA3 /* SwifttorExampleUITests.swift */; };
 		D89045321FC5F70D00DC6AA3 /* MainActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89045311FC5F70D00DC6AA3 /* MainActor.swift */; };
+		D89045341FC6C34900DC6AA3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89045331FC6C34900DC6AA3 /* Model.swift */; };
+		D89045361FC6C3D500DC6AA3 /* NetworkActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89045351FC6C3D500DC6AA3 /* NetworkActor.swift */; };
 		DAA8354DF87B48D66C463535 /* Pods_SwifttorExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B73DF7353300151FA650774 /* Pods_SwifttorExampleTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +49,7 @@
 		621BDE24AAD48B52E860F1CE /* Pods-SwifttorExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifttorExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwifttorExampleTests/Pods-SwifttorExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		B7810D5EA23F8FF9029DA795 /* Pods-SwifttorExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifttorExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwifttorExampleTests/Pods-SwifttorExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BC26DC9D0C325DCF1D10D4D4 /* Pods-SwifttorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifttorExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwifttorExample/Pods-SwifttorExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D8150D141FC6CA5800E84EFF /* ParserActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserActor.swift; sourceTree = "<group>"; };
 		D89045001FC5F59800DC6AA3 /* SwifttorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifttorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89045031FC5F59800DC6AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D89045051FC5F59800DC6AA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 		D89045231FC5F59900DC6AA3 /* SwifttorExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifttorExampleUITests.swift; sourceTree = "<group>"; };
 		D89045251FC5F59900DC6AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D89045311FC5F70D00DC6AA3 /* MainActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActor.swift; sourceTree = "<group>"; };
+		D89045331FC6C34900DC6AA3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D89045351FC6C3D500DC6AA3 /* NetworkActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkActor.swift; sourceTree = "<group>"; };
 		F98F9FEEBB507B4B82801AB0 /* Pods-SwifttorExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifttorExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwifttorExampleUITests/Pods-SwifttorExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +152,9 @@
 				D890450C1FC5F59800DC6AA3 /* LaunchScreen.storyboard */,
 				D890450F1FC5F59800DC6AA3 /* Info.plist */,
 				D89045311FC5F70D00DC6AA3 /* MainActor.swift */,
+				D89045331FC6C34900DC6AA3 /* Model.swift */,
+				D89045351FC6C3D500DC6AA3 /* NetworkActor.swift */,
+				D8150D141FC6CA5800E84EFF /* ParserActor.swift */,
 			);
 			path = SwifttorExample;
 			sourceTree = "<group>";
@@ -462,8 +471,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D89045321FC5F70D00DC6AA3 /* MainActor.swift in Sources */,
+				D89045361FC6C3D500DC6AA3 /* NetworkActor.swift in Sources */,
 				D89045061FC5F59800DC6AA3 /* ViewController.swift in Sources */,
 				D89045041FC5F59800DC6AA3 /* AppDelegate.swift in Sources */,
+				D8150D151FC6CA5800E84EFF /* ParserActor.swift in Sources */,
+				D89045341FC6C34900DC6AA3 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
