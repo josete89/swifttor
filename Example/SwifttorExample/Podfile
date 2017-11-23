@@ -7,7 +7,7 @@ target 'SwifttorExample' do
 
   # Pods for SwifttorExample
 
-  pod 'Swifttor', :local '../../Swifttor/'
+  pod 'Swifttor', :git => 'https://github.com/josete89/swifttor.git', :branch => 'master'
 
   target 'SwifttorExampleTests' do
     inherit! :search_paths

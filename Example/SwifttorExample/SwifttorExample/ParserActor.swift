@@ -8,24 +8,22 @@
 
 import Swifttor
 
-enum ParserkMessages{
-    case parseToModel(data:Data)
-}
 
 struct ParserActor: ActorAsk {
     
     typealias ResultType = Result<Model,String>
-    typealias MessageType = ParserkMessages
+    typealias MessageType = Result<Data,String>
     
     func reiciveAsk(message: Result<Data,String>, completion: @escaping (Result<Model, String>) -> ()) {
-        switch message {
-        case .parseToModel(let data):
+        
+        let result = message.fmap { (data) -> Result <Model,String>  in
             if let result = try? JSONDecoder().decode(Model.self, from: data){
-                completion(Result.success(result: result))
-            }else{
-                completion(Result.failure(error: "Cannot parse"))
+                return Result.success(result)
             }
+            return Result.failure("Cannot parse")
         }
+        completion(result)
+        
     }
     
 }
