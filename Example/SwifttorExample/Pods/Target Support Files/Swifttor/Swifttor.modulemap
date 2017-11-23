@@ -1,6 +1,0 @@
-framework module Swifttor {
-  umbrella header "Swifttor-umbrella.h"
-
-  export *
-  module * { export * }
-}

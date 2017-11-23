@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Swifttor"
-  s.version          = "1.0"
+  s.version          = "1.1"
   s.summary          = "An akka implementation on Swift"
   s.description      = "Library to use the actor paradming on swift with differnt kind of actors"
   s.module_name      = "Swifttor"

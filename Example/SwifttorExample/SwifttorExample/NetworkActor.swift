@@ -8,21 +8,19 @@
 
 import Swifttor
 import Foundation
-enum NetWorkMessages{
-    case fetchFromNetwork(url:URL)
+
+enum Result<A,B>{
+    case success(A)
+    case failure(B)
 }
 
-struct NetworkActor: ActorAsk {
+struct NetworkActor: ActorAsk {    
     
     typealias ResultType = Result<Data,String>
+    typealias MessageType = URL
     
-    typealias MessageType = NetWorkMessages
-    
-    func reiciveAsk(message: NetWorkMessages,completion:@escaping (Result<Data,String>)->()) {
-        switch message {
-        case .fetchFromNetwork(let url):
-            perfomNetWorkCall(url: url, completion: completion)
-        }
+    func reiciveAsk(message: URL,completion:@escaping (Result<Data,String>)->()) {
+        perfomNetWorkCall(url: message, completion: completion)
     }
     
     

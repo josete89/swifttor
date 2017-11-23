@@ -24,10 +24,10 @@ public protocol ActorTell: Actor {
 public protocol ActorAsk: Actor {
 
     associatedtype ResultType
-    func reiciveAsk(message:MessageType) -> ResultType
+    func reiciveAsk(message:MessageType,completion:@escaping(ResultType)->Void)
 }
 
-extension Actor {
+public extension Actor {
 
     var queue:DispatchQueue {
         return DispatchQueue(label: "com.josete89.swifttor.\(name)")
@@ -57,8 +57,7 @@ extension ActorAsk {
     func putPromise(message:MessageType) -> Future<ResultType> {
         return Future(compute: { (completion) in
             self.queue.async(execute: {
-                 let result = self.reiciveAsk(message: message)
-                 completion(result)
+                self.reiciveAsk(message: message,completion: completion)
             })
         })
     }

@@ -22,13 +22,12 @@ struct MainActor:ActorAsk,ActorTell {
     var queue: DispatchQueue {
         return DispatchQueue.main
     }
-
-    typealias MessageType = String
-    typealias ResulType = String
     
-    func reiciveAsk(message: String) -> String {
+    typealias ResultType = String
+    typealias MessageType = String
 
-        return message
+    func reiciveAsk(message: String, completion: @escaping (String) -> Void) {
+        completion(message)
     }
     
     func reiciveTell(message: String) {
