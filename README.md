@@ -21,7 +21,7 @@ In the Example folder we have an example project which is using swifttor.
 
 I've created 3 different actors
 
-```
+``` swift
 struct NetworkActor: ActorAsk {    
     
     typealias ResultType = Result<Data,String>
@@ -45,7 +45,7 @@ struct NetworkActor: ActorAsk {
 }
 ```
 
-```
+``` swift
 struct ParserActor: ActorAsk {
     
     typealias ResultType = Result<Model,String>
@@ -66,7 +66,7 @@ struct ParserActor: ActorAsk {
 }
 ```
 
-```
+``` swift
 struct MainActor: ActorTell {
 
     typealias MessageType = MainActorMessages
@@ -89,7 +89,7 @@ struct MainActor: ActorTell {
 
 And this are the enums used for messaging between them 
 
-```
+``` swift
 enum MainActorMessages {
     case displayInfo(callback:(Model) -> (),data:Model)
     case refreshStuffWithData(callback:(String) -> (),data:String)
@@ -98,7 +98,7 @@ enum MainActorMessages {
 
 ```
 
-```
+``` swift
 enum Result<A,B>{
     case success(A)
     case failure(B)
@@ -124,7 +124,7 @@ extension Result {
 ```
 And now you are able to do this
 
-```
+``` swift
         let actorRef = ActorSystem.actorOf(actorType: MainActor.self)
         
         let networkActor = ActorSystem.actorOf(actorType: NetworkActor.self)
@@ -146,7 +146,7 @@ And now you are able to do this
 
 Create a new actor
 
-```
+``` swift
 struct MainActor:ActorAsk,ActorTell {
     /* Optional if you don't specify creates a new one*/
     var queue: DispatchQueue {
@@ -169,7 +169,7 @@ struct MainActor:ActorAsk,ActorTell {
 
 Inicialization 
 
-```
+``` swift
 /*If we use this we are saving the actor in a cache*/
 let actor1 = ActorSystem.actorOf(actorType: MainActor.self)
 
@@ -179,7 +179,7 @@ let actorRef = ActorSystem.actorOfInstance(main)
 ```
 
 Compose calls
-```
+``` swift
 let actor1 = ActorSystem.actorOf(actorType: MainActor.self)
 let actor2 = ActorSystem.actorOf(actorType: MainActor.self)
 let result = actor1 !! "Hello" >>> actor2.ask
