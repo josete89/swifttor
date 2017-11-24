@@ -69,6 +69,10 @@ struct ParserActor: ActorAsk {
 ``` swift
 struct MainActor: ActorTell {
 
+    var queue: DispatchQueue {
+        return DispatchQueue.main
+    }
+
     typealias MessageType = MainActorMessages
     
     func reiciveTell(message: MainActorMessages) {
